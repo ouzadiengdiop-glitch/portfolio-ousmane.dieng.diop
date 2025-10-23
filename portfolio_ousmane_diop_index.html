@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Ousmane DIOP — Chef de projet infrastructures</title>
+  <meta name="description" content="Portfolio d'Ousmane DIOP — Chef de projet senior en infrastructures et aménagements urbains (PMO)" />
+  <style>
+    :root{
+      --bg:#0b0d10;
+      --card:#0f1417;
+      --muted:#9aa3a8;
+      --accent:#1f8cff;
+      --glass: rgba(255,255,255,0.03);
+      --radius:14px;
+      --maxw:1000px;
+      --mono: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;font-family:var(--mono);background:linear-gradient(180deg, #07080a 0%, #0b0d10 100%);color:#e6eef3;-webkit-font-smoothing:antialiased;line-height:1.5;
+      -webkit-font-smoothing:antialiased;
+    }
+    .container{max-width:var(--maxw);margin:40px auto;padding:28px}
+
+    header{display:flex;align-items:center;justify-content:space-between;margin-bottom:28px}
+    .brand{display:flex;gap:18px;align-items:center}
+    .avatar{width:78px;height:78px;border-radius:12px;background:linear-gradient(135deg,#1b2430,#0f1820);display:flex;align-items:center;justify-content:center;font-weight:700;font-size:20px;color:var(--accent);box-shadow:0 6px 18px rgba(16,24,40,0.6)}
+    h1{margin:0;font-size:22px}
+    h2{margin:0;font-size:14px;color:var(--muted)}
+
+    nav a{color:var(--muted);text-decoration:none;margin-left:18px;font-size:14px}
+    nav a:hover{color:var(--accent)}
+
+    .hero{background:linear-gradient(180deg, rgba(255,255,255,0.02), transparent);padding:28px;border-radius:var(--radius);display:grid;grid-template-columns:1fr 360px;gap:18px;align-items:start}
+    .intro h3{margin:0;color:var(--accent);font-size:13px;letter-spacing:1px}
+    .intro p{margin-top:12px;color:#cfe6ff}
+
+    .card{background:var(--card);padding:18px;border-radius:12px;box-shadow:0 6px 18px rgba(2,6,23,0.6)}
+    .meta{display:flex;flex-direction:column;gap:12px}
+    .meta .item{display:flex;gap:12px;align-items:center}
+    .chip{padding:8px 12px;border-radius:999px;background:var(--glass);font-size:13px;color:var(--muted)}
+
+    section{margin-top:20px}
+    .grid{display:grid;grid-template-columns:1fr 1fr;gap:16px}
+    .project{padding:16px;border-radius:12px;background:linear-gradient(180deg, rgba(255,255,255,0.015), transparent);}
+    .project h4{margin:0 0 8px 0;color:#fff}
+    .small{font-size:13px;color:var(--muted)}
+
+    .skills{display:flex;flex-wrap:wrap;gap:8px}
+    .skill{background:rgba(255,255,255,0.03);padding:8px 10px;border-radius:8px;font-size:13px;color:var(--muted)}
+
+    footer{margin-top:30px;text-align:center;color:var(--muted);font-size:13px}
+
+    /* responsive */
+    @media (max-width:920px){
+      .hero{grid-template-columns:1fr}
+      .grid{grid-template-columns:1fr}
+      nav{display:none}
+    }
+
+    /* subtle animation */
+    .reveal{opacity:0;transform:translateY(10px);animation:reveal .7s ease forwards}
+    .reveal.delay{animation-delay:.15s}
+    @keyframes reveal{to{opacity:1;transform:none}}
+
+    .topbar{display:flex;justify-content:space-between;align-items:center}
+    .btn{display:inline-block;padding:10px 14px;border-radius:10px;background:transparent;border:1px solid rgba(255,255,255,0.06);color:var(--accent);text-decoration:none;font-weight:600}
+    .link{color:var(--accent);text-decoration:none}
+
+    .contacts a{display:inline-flex;align-items:center;gap:8px}
+    .amount{color:var(--accent);font-weight:700}
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header class="topbar reveal">
+      <div class="brand">
+        <div class="avatar">OD</div>
+        <div>
+          <h1>Ousmane DIOP</h1>
+          <h2>Chef de projet senior — Infrastructures & aménagements urbains (PMO)</h2>
+        </div>
+      </div>
+      <nav>
+        <a href="#projets">Projets</a>
+        <a href="#experience">Expérience</a>
+        <a href="#competences">Compétences</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero reveal delay">
+        <div class="intro">
+          <h3>Profil</h3>
+          <p>Chef de projet sénior avec plus de 18 ans d’expérience dans la gestion de projets d’infrastructures de transport, d’énergie et d’équipements publics en France et en Afrique de l’Ouest. Expertise en pilotage PMO, coordination multi-bailleurs et transformation des besoins opérationnels en solutions concrètes.</p>
+
+          <div style="margin-top:18px;display:flex;gap:10px;flex-wrap:wrap">
+            <span class="chip">Pilotage de programmes</span>
+            <span class="chip">Gestion budgétaire</span>
+            <span class="chip">Coordination multi-acteurs</span>
+            <span class="chip">BIM & MS Project</span>
+          </div>
+        </div>
+
+        <aside class="card">
+          <div class="meta">
+            <div class="item"><strong>Email</strong><span style="margin-left:auto;color:var(--muted)">ouza.dieng.diop@gmail.com</span></div>
+            <div class="item"><strong>Lieu</strong><span style="margin-left:auto;color:var(--muted)">Torcy, France · Canada</span></div>
+            <div class="item contacts"><strong>LinkedIn</strong><a href="https://www.linkedin.com/in/ousmane-dieng-diop-3018b635/" target="_blank" rel="noopener">Consulter le profil</a></div>
+            <div style="margin-top:8px"><a class="btn" href="#contact">Me contacter</a></div>
+          </div>
+        </aside>
+      </section>
+
+      <section id="projets" class="reveal" style="margin-top:26px">
+        <h3>Projets majeurs</h3>
+        <div class="grid" style="margin-top:12px">
+          <div class="project">
+            <h4>Projet Grand Nancy</h4>
+            <div class="small">Pilotage PMO d’un portefeuille d’aménagements urbains et transport (coordination multi-sites, suivi technique et budgétaire).</div>
+          </div>
+          <div class="project">
+            <h4>Équipement culturel — Groupe LVMH</h4>
+            <div class="small">Direction de projet pour l’équipement culturel réalisé pour LVMH — budget <span class="amount">210 M€</span>. Supervision technique, contractualisation et coordination des acteurs.</div>
+          </div>
+
+          <div class="project">
+            <h4>Extension infrastructures aéroportuaires — Guadeloupe</h4>
+            <div class="small">Conduite de projet d’extension d’infrastructures aéroportuaires en Guadeloupe, budget estimé à <span class="amount">50 M€</span>. Planification, études de faisabilité et coordination des travaux.</div>
+          </div>
+
+          <div class="project">
+            <h4>Centre aquatique — Antony</h4>
+            <div class="small">Projet d’aménagement sportif et centre aquatique — budget <span class="amount">45 M€</span>. Direction technique et suivi de la réalisation.</div>
+          </div>
+
+          <div class="project">
+            <h4>ZAC — Saint-Ouen (Saint-Denis)</h4>
+            <div class="small">Aménagement d’une ZAC de <strong>100 ha</strong> (Saint-Ouen / Saint-Denis) pour un montant d’environ <span class="amount">50 M€</span>. Coordination urbanistique, études et pilotage multi-acteurs.</div>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience" class="reveal" style="margin-top:26px">
+        <h3>Expérience</h3>
+        <div style="margin-top:12px;display:grid;gap:12px">
+          <div class="card">
+            <strong>EGIS — Responsable d’antenne & Chef de projet senior</strong>
+            <div class="small">Avril 2025 — Aujourd'hui · Supervision d’un portefeuille d’aménagements urbains et de transport (2 à 80 M€). Mise en place d’un PMO inter-projets et reporting stratégique.</div>
+          </div>
+
+          <div class="card">
+            <strong>SETEC — Chef de projet infra & VRD</strong>
+            <div class="small">Mai 2019 — Mars 2025 · Direction technique et gestion de projets complexes (jusqu’à 258 M€). Coordination avec investisseurs, collectivités et bailleurs internationaux.</div>
+          </div>
+
+          <div class="card">
+            <strong>SEGIC — Chef de projet infra & VRD</strong>
+            <div class="small">Nov 2017 — Avril 2019 · Pilotage de projets urbains majeurs (ZAC, voiries) et coordination des études techniques, financières et environnementales.</div>
+          </div>
+
+          <div class="card">
+            <strong>CETEC — Chef de projet infrastructures & VRD</strong>
+            <div class="small">Janv 2012 — Nov 2017 · Conduite de projets d’aménagements urbains, routiers et hydrauliques. Encadrement équipes et suivi contractuel.</div>
+          </div>
+
+          <div class="card">
+            <strong>Satocan / AFSIT / GRESTEC / SENELABO / AFID — Divers postes</strong>
+            <div class="small">Janv 2007 — Sept 2011 · Développement d’expertise infrastructure/assainissement en environnement africain.</div>
+          </div>
+
+        </div>
+      </section>
+
+      <section id="competences" class="reveal" style="margin-top:26px">
+        <h3>Compétences & Outils</h3>
+        <div style="margin-top:10px" class="skills">
+          <span class="skill">Gestion de projets (PMO)</span>
+          <span class="skill">Planification & MS Project</span>
+          <span class="skill">BIM & Modélisation (Civil 3D)</span>
+          <span class="skill">VRD & Voirie</span>
+          <span class="skill">Coordination multi-bailleurs</span>
+          <span class="skill">Analyse financière & Due diligence</span>
+          <span class="skill">Gestion des risques</span>
+          <span class="skill">Anglais professionnel (B1)</span>
+        </div>
+
+        <div style="margin-top:12px" class="grid">
+          <div class="card">
+            <strong>Formation</strong>
+            <div class="small" style="margin-top:8px">Master Infrastructures et VRD — Université d’Artois (2011-2012)<br/>Diplôme d'Ingénieur en Génie Civil — Ecole Supérieure Polytechnique, SN (2008-2011)</div>
+          </div>
+
+          <div class="card">
+            <strong>Certifications & Outils</strong>
+            <div class="small" style="margin-top:8px">MS Project, AutoCAD Civil 3D, Covadis, BIM, Pack Office, tableaux de bord PMO</div>
+          </div>
+        </div>
+      </section>
+
+      <section id="contact" class="reveal" style="margin-top:26px">
+        <h3>Contact</h3>
+        <div class="card" style="margin-top:12px;display:flex;flex-direction:column;gap:12px">
+          <div><strong>Email</strong><div class="small">ouza.dieng.diop@gmail.com</div></div>
+          <div><strong>LinkedIn</strong><div class="small"><a class="link" href="https://www.linkedin.com/in/ousmane-dieng-diop-3018b635/" target="_blank" rel="noopener">https://www.linkedin.com/in/ousmane-dieng-diop-3018b635/</a></div></div>
+          <div style="margin-top:8px"><a class="btn" href="mailto:ouza.dieng.diop@gmail.com">Envoyer un e‑mail</a></div>
+        </div>
+      </section>
+
+    </main>
+
+    <footer class="reveal" style="margin-top:28px">© <span id="year"></span> Ousmane DIOP — Portfolio professionnel</footer>
+  </div>
+
+  <script>
+    // set year
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // smooth scroll for internal links
+    document.querySelectorAll('a[href^="#"]').forEach(a=>{
+      a.addEventListener('click', e=>{
+        e.preventDefault();
+        const t = document.querySelector(a.getAttribute('href'));
+        if(t) t.scrollIntoView({behavior:'smooth',block:'start'});
+      })
+    })
+
+    // small reveal on load
+    window.addEventListener('load', ()=>{
+      document.querySelectorAll('.reveal').forEach((el,i)=>{el.style.animationDelay=(i*80)+'ms';el.classList.add('visible')});
+    })
+  </script>
+</body>
+</html>
